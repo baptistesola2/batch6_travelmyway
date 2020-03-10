@@ -131,11 +131,11 @@ class Journey_step:
                 'departure_point': self.departure_point or '',
                 'arrival_point': self.arrival_point or '',
                 'departure_stop_name': self.departure_stop_name or '',
-                'arrival_stop_name': self.arrival_stop_name  or '',
-                'departure_date': str(self.departure_date) or ' or ''',
-                'arrival_date': str(self.arrival_date) or ' or ''',
-                'trip_code': self.trip_code or ' or ''',
-                'gCO2': self.gCO2 or ' or ''',
+                'arrival_stop_name': self.arrival_stop_name or '',
+                'departure_date': str(self.departure_date) or '',
+                'arrival_date': str(self.arrival_date) or '',
+                'trip_code': self.trip_code or '',
+                'gCO2': self.gCO2 or '',
                 # 'geojson': self.geojson,
                 }
         return json
